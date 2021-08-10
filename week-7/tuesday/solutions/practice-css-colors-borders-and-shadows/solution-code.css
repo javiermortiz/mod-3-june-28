@@ -1,0 +1,96 @@
+.box1 {
+  background-color: blueviolet;
+  /*!!START SILENT */
+  height: 100px;
+  width: 100px;
+  /* version 1 */
+  border-width: 5px;
+  border-style: solid;
+  border-color: blue;
+  /* version 2 */
+  border: solid blue 5px;
+  /*!!END */
+}
+
+.box2 {
+  background-color: greenyellow;
+  /*!!START SILENT */
+  height: 100px;
+  width: 100px;
+  border: dotted red 2px;
+  border-radius: 5px;
+  /*!!END */
+}
+
+.text1 {
+  background-color: blue;
+  /*!!START SILENT */
+  color: #ffc300;
+  width: 500px;
+  padding: 5px;
+  /*!!END */
+}
+
+.text2 {
+  background-color: burlywood;
+  /*!!START SILENT */
+  color: rgb(235, 62, 71);
+  /*!!END */
+}
+
+.box3 {
+  background-color: lavender;
+  position: relative;
+  z-index: 1;
+}
+/*!!START SILENT */
+h2 {
+  opacity: 0.5;
+}
+/*!!END */
+
+.box5 {
+  background-color: lemonchiffon;
+  /*!!START SILENT */
+  box-shadow: 8px 2px 15px teal;
+  /*!!END */
+}
+
+.box6 {
+  background-color: papayawhip;
+  /*!!START SILENT */
+  box-shadow: 5px -10px #800000;
+  /*!!END */
+}
+
+
+/* do not change below this line */
+
+body {
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+}
+
+.box4 {
+  top: 0;
+  left: 5px;
+  background-color: hotpink;
+  position: absolute;
+  z-index: -1;
+}
+
+.text {
+  width: 500px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 0 20px;
+  box-sizing: border-box;
+}

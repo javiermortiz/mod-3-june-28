@@ -1,0 +1,115 @@
+body {
+    background-color: lightgray;
+}
+
+h1, p, ul, li, a {
+    border: 1px solid red;
+    background-color: white;
+}
+
+h2 {
+    border: 1px solid red;
+    background-color: white;
+    height: 100px;
+}
+
+span {
+    border: 1px solid red;
+    background-color: white;
+    height: 100px;
+}
+
+.inline-block {
+    border: 1px solid red;
+    background-color: white;
+    height: 100px;
+    display: inline-block;
+}
+
+.neighbor2 {
+    border: 1px solid red;
+    background-color: white;
+    display: inline-block;
+}
+
+.neighbor1 {
+    border: 10px solid red;
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    margin: 100px;
+}
+
+.standard {
+    border: 1px solid red;
+    background-color: white;
+    width: 178px;
+    height: 178px;
+    padding: 10px;
+}
+
+.border-box {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: white;
+}
+
+.box-playground-neighbor {
+    border: 1px solid red;
+    background-color: white;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.box-playground-neighbor2 {
+    border: 1px solid red;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+}
+
+.box-playground {
+    border: 1px solid red;
+    background-color: white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+    overflow:scroll;
+    box-shadow: 0px 0px 10px red;
+}
+
+.yellow-box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: lightyellow;
+    border: 5px solid yellow;
+    margin: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.boxes-container {
+    position: relative;
+}
+
+.red-box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: pink;
+    border: 5px solid red;
+    margin: 10px;
+    position: relative;
+    top: 100px;
+}
+
+.subheading {
+    position: sticky;
+    top: 20px;
+}

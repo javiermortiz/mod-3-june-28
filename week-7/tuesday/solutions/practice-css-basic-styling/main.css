@@ -1,0 +1,94 @@
+/*!!ADD */
+h1 {
+    /* how large the browser renders letters: absolute vs relative units */
+    font-size: 50px;
+    /* sets the color of the letters: hex, rgb, rgba, name */
+    color: black;
+    /* the 5 generic fonts vs some specific like Arial */
+    font-family: fantasy;
+    /* sets boldness of letters */
+    font-weight: 700;
+    /* transforms the text */
+    text-transform: uppercase
+}
+
+/* h2 {
+    font-size: ;
+    font-family: ;
+    padding: ;
+    margin: ;
+    font-weight: ;
+    color: ;
+    background-color: ;
+}
+
+p {
+    font-family: ;
+    font-size: ;
+    padding: ;
+    margin: ;
+    color: ;
+    background-color: ;
+} */
+
+.logo {
+    background-size: cover;
+    background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
+    background-color: red;
+    height: 500px;
+    width: 500px;
+}
+/*!!END_ADD */
+/*!!START SILENT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+h1 {
+    /* how large the browser renders letters: absolute vs relative units */
+    font-size: 24px;
+    /* the 5 generic fonts vs some specific like Arial */
+    font-family: 'Georama', sans-serif;
+    padding: 20px;
+    margin: 30px;
+    /* sets boldness of letters */
+    font-weight: bold;
+    /* transforms the text */
+    text-transform: uppercase;
+    /* sets the color of the letters: hex, rgb, rgba, name */
+    color: black;
+    background-color: pink;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color: blue;
+    background-color: lightgray;
+}
+
+p {
+    font-family: serif;
+    font-size: 14px;
+    padding: 6px;
+    margin: 7px;
+    color: black;
+    background-color: gold;
+}
+
+.logo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: green;
+    background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+/*!!END */
