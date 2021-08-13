@@ -1,0 +1,37 @@
+# Week 7 Study Guide
+
+- Time: 2 hours 30 minutes
+- Format: 33 Multiple Choice questions, 10 coding problems with 10 spec points total for 43 total points
+- Passing score: 34/43
+- Allowed Resources: 
+    - MDN
+    - aA Open (No Solutions)
+    - VSCode
+    - Console
+    - Code you wrote yourself (no notes)
+- Content:
+    - Analyze if a page is using whitespace correctly
+    - Based on a wireframe, identify the most semantic html tag to use for a particular element
+    - Identify popular frameworks and their main feature (responsiveness, lightweight, etc.)
+    - Components of a CSS rule
+    - Select all the elements that don’t have a specific class
+    - Common CSS property names and behavior: change font color/size/boldness, color and image of a background, margin, padding, border, etc.
+    - Identify an html element based on its CSS selector. Understand CSS selectors for ids, classes, descendants.
+    - Valid media types for media queries.
+    - How to link external CSS file to an HTML file.
+    - Be able to identify the CSS selector with highest specificity.
+    - Understand the values of rgba() and know the code for black and white.
+    - Difference between the different values for the CSS position property, know which is the default value.
+    - Common user action pseudo-classes
+    - How to include content of one CSS file in another.
+    - Generic names for font families. 
+    - what properties can you manipulate when applying the flex property to children of a flex-box
+    - Absolute and relative units of measurement in CSS
+    - How box-sizing: border-box works.
+    - grid properties for children to specify the columns and rows.
+    - Flex properties for the parent to specify how items are laid out along the x and y axis.
+    - The values of the display property.
+    - Be able to implement a box-shadow
+    - Be able to use the correct css selectors including compound class selector and properties to style an element. 
+    - Position elements with position/flexbox/grid.
+    - Be able to handle content that overflows.
