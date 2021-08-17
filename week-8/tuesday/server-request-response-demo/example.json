@@ -1,0 +1,15 @@
+{
+    "request": {
+        "url": "/posts",
+        "method": "POST",
+        "body": false,
+        "headers": false
+    },
+    "response": {
+        "status-code": 302,
+        "body": false,
+        "headers": {
+            "Location": true
+        }
+    }
+}
