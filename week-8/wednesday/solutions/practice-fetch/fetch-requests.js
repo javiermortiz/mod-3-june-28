@@ -39,8 +39,8 @@ fetch("http://localhost:5000/products")
 
 //!!START
 // using Promise chain (.then)
-// fetch("http://localhost:5000/products")
-//   .then(res => console.log(res.headers.get('Content-Type')));
+fetch("http://localhost:5000/products")
+  .then(res => console.log(res.headers.get('Content-Type')));
 
 // using async/await
 // (async function() {
