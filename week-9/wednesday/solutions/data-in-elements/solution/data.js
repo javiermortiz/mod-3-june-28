@@ -14,4 +14,4 @@ window.addEventListener("DOMContentLoaded", event => {
             name.value = "";
             type.value = "drinks";
         })
-})
+});
