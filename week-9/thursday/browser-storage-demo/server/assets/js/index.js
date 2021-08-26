@@ -1,5 +1,29 @@
 window.addEventListener("DOMContentLoaded", ev => {
+    // Retrieve item in localStorage
+    // const savedMode = localStorage.getItem("mode");
 
+    // Retrieve item in cookies
+    const savedMode = document.cookie.split("=")[1];
+
+    if (savedMode === "dark") {
+        darkMode();
+    }
+
+    const modes = document.querySelector("#modes");
+    modes.addEventListener("click", ev => {
+        const selection = ev.target.id;
+        console.log(selection);
+        if (selection === "light") {
+            lightMode();
+        } else if (selection === "dark") {
+            darkMode();
+        }
+        // Set item in localStorage
+        // localStorage.setItem("mode", selection);
+
+        // With cookies
+        document.cookie = `mode=${selection}`;
+    });
 });
 
 function lightMode() {
